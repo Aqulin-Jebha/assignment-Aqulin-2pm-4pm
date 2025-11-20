@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Showcase Page</title>
+</head>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: white;
+      color:rgb(81, 63, 63);
+    }
+
+    header, footer {
+      background:rgb(22, 21, 21);
+      color:whitesmoke;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      
+    }
+
+    video {
+      width: 100%;
+      border-radius: 8px;
+
+        }
+    
+  </style>
+<body>
+    <header>
+        <h1>My Video Showcase</h1>
+        <p>Enjoy my collection of videos!</p>
+    </header>
+    <main>
+        <section class="video">
+            <h2>Travel Vlog</h2>
+            <video width="360" height="360" controls>
+                <source src="videos/travel_vlog.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="video">
+            <h2>Cooking Tutorial</h2>
+            <video width="360" height="360" controls>
+                <source src="videos/cooking_tutorial.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>    
+        </section>
+        <section class="video">
+            <h2>Workout Routine</h2>
+            <video width="360" height="360" controls>
+                <source src="videos/workout_routine.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>  
+    </main>
+    <footer>
+        <p>&copy; 2024 My Video Showcase</p>        
+    </footer> 
+
+    
+</body>
+</html>
