@@ -1,0 +1,17 @@
+.one{
+    background-color: #80da7d;
+    padding: 15px;
+    border-radius: 8px;
+}
+input[type="text"]{
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
+input[type="password"] {
+    border: 2px solid red;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #fce4e4;
+}
