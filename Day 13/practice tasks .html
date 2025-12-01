@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE TASKS</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 20px;
+            gap: 20px;
+
+        }
+        .container div{
+            background-color: gray;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container2{
+            display: grid;
+            grid-template-columns: 80px 90px;
+            padding: 10px;
+            gap: 20px;
+        }
+        .container2 div{
+            background-color: rgb(178, 255, 229);
+            padding: 20px;
+            text-align: center;
+
+        }
+        .box1{
+            grid-column: span 2;
+        }
+
+        .container3{
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+            padding: 10px;
+            gap: 20px;
+        }
+
+        .container3 div{
+            background-color: rgb(185, 238, 133);
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .container4{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 10px;
+            gap: 20px;
+        }
+        .container4 div{
+            background-color: plum;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Practice task 1 & 2</h2>
+    <h2 style="text-align: center;">Food List </h2> 
+    <div class="container">
+        <div class="box">Food</div>
+        <div class="box">Count</div>
+        <div class="box">Briyani</div>
+        <div class="box">20</div>
+        <div class="box">Mandi</div>
+        <div class="box">15</div>
+        <div class="box">Kappa Briyani</div>
+        <div class="box">25</div>
+    </div>
+
+    <h2>Practice task 3</h2>
+    <div class="container2">
+        <div class="box1">one</div>
+        <div class="box2">two</div>
+        <div class="box3">three</div>
+        <div class="box4">four</div>
+    </div>
+
+    <h2>Practice Task 4</h2>
+    <div class="container3">
+        <div class="boxa">BOX A</div>
+        <div class="boxa">BOX B</div>
+        <div class="boxa">BOX C</div>
+
+    </div>
+
+    <h2>Practice Task 5</h2>
+    <div class="container4">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+    </div>
+</body>
+</html>

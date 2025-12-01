@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:repeat(5,1fr);
+            background-color: rgb(177, 211, 199);
+            justify-content: space-around;
+            height: 400px;
+            padding: 20px;
+    
+        }
+        .container box{
+            background-color: rgb(107, 107, 103);
+            width: 200px;
+            height: 250px;
+        }
+        .img{
+            width: 150px;
+            height: 200px;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>products</h3>
+    <div class="container">
+        <div class="box">
+            <img src="https://image.suratwholesaleshop.com/data/2022y/September/35028/Diwali-Wear-Navy-blue-Lucknowi-Work-Rayon-Kurti-With-Pant-MONSOON5-3241.jpg" alt="kurti" class="img">
+            <h5>Kurti</h5>
+            <button class="button">Add to Cart</button>
+
+
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/originals/24/23/d7/2423d7adb3456b95d3b08752b668dbbf.jpg" alt="jean" class="img">
+            <h5>Jean</h5>
+            <button class="button">Add to Cart</button>
+
+        </div>
+        <div class="box">
+            <img src="https://getethnic.com/wp-content/uploads/2020/01/30.jpg" alt="anarkali" class="img">
+            <h5>Anarkali</h5>
+            <button class="button">Add to Cart</button>
+        </div>
+
+        <div class="box">
+            <img src="https://rajasthanfabric.com/cdn/shop/products/DSC_6175copy_47adab1d-88df-4462-b232-8f3655732ff8.jpg?v=1710509993" alt="anarkali" class="img">
+            <h5>Cotton Saree</h5>
+            <button class="button">Add to Cart</button>
+        </div>
+
+        <div class="box">
+            <img src="https://www.lashkaraa.com/cdn/shop/files/Soft_Peach_Embroidered_Lucknowi_Saree.jpg?v=1742532811" alt="anarkali" class="img">
+            <h5>Fancy Saree</h5>
+            <button class="button">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
