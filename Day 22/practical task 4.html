@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color change</title>
+</head>
+<body>
+    <h2>Color Change</h2>
+    <button id= "change" >Blue</button>
+    <button id="plum">Plum</button>
+    <button id="brown">Brown</button>
+    <button id="pale">Palegreen</button>
+
+    <script>
+        document.getElementById("change").addEventListener("click", function() {
+            document.body.style.backgroundColor = "lightblue";
+        });
+
+        document.getElementById("plum").addEventListener("click", function() {
+            document.body.style.backgroundColor = "plum";
+        });
+
+        document.getElementById("brown").addEventListener("click", 
+        function() {
+            document.body.style.backgroundColor = "brown";
+        });
+
+        document.getElementById("pale").addEventListener("click", 
+        function() {
+            document.body.style.backgroundColor = "palegreen";
+        });
+
+
+    </script>
+</body>
+</html>
