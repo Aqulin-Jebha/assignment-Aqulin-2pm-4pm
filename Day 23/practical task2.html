@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Key Name & Code</title>
+</head>
+<body>
+
+  <h2>Press any key</h2>
+  <p id="output"></p>
+
+  <script>
+    document.addEventListener("keydown", function (event) {
+      document.getElementById("output").innerText =
+        "Key Name: " + event.key + " | Key Code: " + event.keyCode;
+    });
+  </script>
+
+</body>
+</html>

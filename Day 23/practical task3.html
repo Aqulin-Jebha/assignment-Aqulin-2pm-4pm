@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Form Preview</title>
+</head>
+
+<body>
+    <form>
+        <label>Name:</label>
+        <input type="text" id="Name" placeholder="Enter your name">
+        <label>Email:</label>
+        <input type="email" id="mail" placeholder="enter your mail id">
+
+    </form>
+    <h2>Live Preview</h2>
+    <p id="Previewname">Name:</p>
+    <p id="Previewmail">Email:</p>
+
+    <script>
+        const nameInput = document.getElementById("Name");
+        const emailInput = document.getElementById("mail");
+
+        nameInput.addEventListener("input", function () {
+            document.getElementById("Previewname").innerText =
+                "Name: " + nameInput.value;
+        });
+
+        emailInput.addEventListener("change", function () {
+            document.getElementById("Previewmail").innerText =
+                "Email: " + emailInput.value;
+        });
+    </script>
+</body>
+
+</html>

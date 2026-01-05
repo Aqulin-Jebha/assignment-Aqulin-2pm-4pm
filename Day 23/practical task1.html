@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">Color Change</div>
+
+    <script>
+        let box = document.getElementById("box");
+
+        box.addEventListener("click",function (){
+            box.style.background = "plum";
+        });
+
+        box.addEventListener("dbclick", function(){
+            box.style.background = "lightgreen";
+        });
+
+        box.addEventListener("mouseover", function(){
+            box.style.background ="lightblue"
+        });
+    </script>
+</body>
+
+</html>
