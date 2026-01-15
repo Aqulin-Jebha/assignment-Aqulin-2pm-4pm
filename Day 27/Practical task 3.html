@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="output"></p>
+
+<script>
+window.onload = function () {
+  const savedName = localStorage.getItem("username");
+  if (savedName) {
+    document.getElementById("output").textContent =
+      "Welcome " + savedName;
+  }
+};
+</script>
+
+</body>
+</html>
