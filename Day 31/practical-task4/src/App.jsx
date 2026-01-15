@@ -1,10 +1,16 @@
+
+
 import './App.css'
 
 function App() {
-  return (
-    <h1>My Name is Aqulin</h1>
-  );
-}
 
+
+  return (
+    <>
+      <title>Task 5-Page title</title>
+
+    </>
+  )
+}
 
 export default App
