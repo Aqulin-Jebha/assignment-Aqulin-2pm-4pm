@@ -1,5 +1,5 @@
 const user = {
-  name: "Akhil",
+  name: "Aqulin",
   age: 21
 };
 const jsonData = JSON.stringify(user);
